@@ -1,0 +1,613 @@
+html,
+body {
+    color: #420c2f;
+    padding: none;
+    margin: none;
+    background-color: #9e708d;
+}
+
+#bar {
+    color: #9e708d;
+    background-color: #420c2f
+}
+
+/* NAVIGATION BAR */
+#mynavigation a {
+    color: #420c2f !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: x-large;
+    font-weight:normal
+}
+
+#mynavigation a::after {
+    content: " |  "
+}
+
+
+
+/* HOME PAGE */
+/* PICTURE OF ME */
+#name {
+    font-family: "Playwrite IS", cursive;
+    text-decoration: underline;
+    font-size: 80px;
+}
+
+#math, #digital {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#bing {
+    font-size: 50px;
+}
+
+#first-row {
+    padding-top: 50px;
+}
+
+#second-row {
+    padding-top: 10px;
+}
+
+
+/* ABOUT ME */
+#section-header {
+    padding-top: 25px;
+    font-size: 40px;
+
+}
+
+#blurb {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#floral {
+    padding-top: none;
+    text-align: center
+}
+
+/* SKILL PROF */
+#skillp {
+    padding-top: 25px;
+}
+
+.progress-bar {
+    background-color: #420c2f !important;
+}
+
+.progress {
+    border: solid !important;
+    border-color: #420c2f !important;
+    background-color: #f4deff !important;
+    border-width: 2px !important;
+}
+
+#newskill {
+    padding-top: 10px
+}
+
+#bod {
+    padding-bottom: 20px;
+}
+
+
+/* FLORAL PICTURES */
+#big-bouq {
+    background-image: url("images/big bouq.jpg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#dahlia {
+    background-image: url("images/dahlia.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#hydranga {
+    background-image: url("images/hydranga.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#mason {
+    background-image: url("images/mason jar.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#party {
+    background-image: url("images/party.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#party2 {
+    background-image: url("images/party2.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#patriotic {
+    background-image: url("images/patriotic.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#peach {
+    background-image: url("images/peach.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#pink {
+    background-image: url("images/pink.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#red {
+    background-image: url("images/red corsage.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#roses {
+    background-image: url("images/roses.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#shandon {
+    background-image: url("images/shandon party.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#summer {
+    background-image: url("images/summer.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#valentine {
+    background-image: url("images/valentine.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#wand {
+    background-image: url("images/wand.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#wax {
+    background-image: url("images/wax.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#gold {
+    background-image: url("images/white gold rose.jpeg");
+    width: 620px;
+    height: 620px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* EDUCATION & WORK EXPERIENCE*/
+#edu {
+    padding-top: 20px;
+    font-size: 60px;
+    text-decoration: none;
+    text-align: center
+}
+
+#cent {
+    text-align: center
+}
+
+#bb {
+    font-size: medium;
+}
+
+#maths, #dida, #linkedin {
+    background-color: #420c2f;
+    border: solid;
+    border-color: #9e708d;
+    color: #9e708d;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;
+    border-width: 2px;
+}
+
+#desc,
+#ldesc {
+    font-size: 21px;
+    padding-top: 10px
+}
+
+#newrow {
+    padding-top: 50px;
+    padding-bottom: 10px
+}
+
+/* PROJECTS */
+#proj {
+    padding-top: 20px
+}
+
+#buttondiv {
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+#pic-col {
+    text-align: center;
+}
+
+/* VIZ PICS */
+#age-v-viewer {
+    background-image: url("images/age-v-viewer.jpg");
+    width: 430px;
+    height: 300px;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: center;
+    margin: auto;
+}
+
+#age-v-viewer2 {
+    background-image: url("images/age-v-viewer2.jpg");
+    width: 430px;
+    height: 300px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+}
+
+#ts1 {
+    background-image: url("images/ts1.jpg");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+#ts2 {
+    background-image: url("images/ts2.jpg");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+}
+
+#ts3 {
+    background-image: url("images/ts3.jpg");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+#ts4 {
+    background-image: url("images/ts4.jpg");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+}
+
+#ukr1 {
+    background-image: url("images/ukr1.jpg");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+    margin-bottom: 100px
+}
+
+#ukr2 {
+    background-image: url("images/ukr2.jpg");
+    width: 450px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+    margin-bottom: 100px
+}
+
+#ukr3 {
+    background-image: url("images/ukr3.jpg");
+    width: 450px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+}
+
+#ukr4 {
+    background-image: url("images/ukr4.jpg");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: auto;
+}
+
+#cost1 {
+    background-image: url("images/cost1.jpg");
+    width: 400;
+    height: 300px;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: center;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+#cost2 {
+    background-image: url("images/cost2.jpg");
+    width: 400;
+    height: 300px;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: center;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+#github {
+    padding-top: 20px
+}
+
+#mediv{
+    width: 300px;
+    height: 500px;
+}
+
+
+/* CONTACT ME */
+form {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: x-large;
+    color: #420c2f
+}
+
+#interest {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+#contacts{
+    padding-left:none;
+    margin-left:none;
+    font-size: 30px;
+    padding-top:110px;
+    /* text-align: right; */
+}
+#linkedin{
+    font-size: 30px !important;
+}
+
+
+
+/* BUTTONS */
+#backtotop {
+    background-color: #f4deff;
+    border-color: #f4deff;
+    color: #420c2f;
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+    border-color: #420c2f;
+    border-width: 2px;
+}
+
+
+/* FONT RULES */
+
+/* montserrat */
+.montserrat-reg {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Yellowtail", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: larger;
+}
+
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: larger
+}
+
+b {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: larger
+}
+
+li {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* yellowtail */
+.yellowtail-regular {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.yellowtail-bold {
+    font-family: "Yellowtail", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
